@@ -1,0 +1,52 @@
+{
+  "errno": 0,
+  "data": {
+    "name": "特朗普的店",
+    "description": "急速上菜",
+    "deliveryTime": 10,
+    "score": 4.2,
+    "serviceScore": 4.1,
+    "foodScore": 4.3,
+    "rankRate": 69.2,
+    "minPrice": 0,
+    "deliveryPrice": 0,
+    "ratingCount": 24,
+    "sellCount": 90,
+    "bulletin": "张春阳info:本店系统刚刚上线，欢迎各位神仙使用，反馈BUG送优惠券！",
+    "supports": [
+      {
+        "type": 0,
+        "description": "消费满200立减3元！"
+      },
+      {
+        "type": 1,
+        "description": "酒水饮料全场8折"
+      },
+      {
+        "type": 2,
+        "description": "现推出浪漫双人套餐"
+      },
+      {
+        "type": 3,
+        "description": "开具发票请报上单位税号！"
+      },
+      {
+        "type": 4,
+        "description": "支持前台人点餐哦！(未上线)"
+      }
+    ],
+    "avatar": "https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1528010101257&di=568ad224452ab132dc770d6745074d75&imgtype=0&src=http%3A%2F%2Fimgsrc.baidu.com%2Fimgad%2Fpic%2Fitem%2F77c6a7efce1b9d16251c0446f8deb48f8c54643a.jpg",
+    "pics": [
+      "http://fuss10.elemecdn.com/8/71/c5cf5715740998d5040dda6e66abfjpeg.jpeg?imageView2/1/w/180/h/180",
+      "http://fuss10.elemecdn.com/b/6c/75bd250e5ba69868f3b1178afbda3jpeg.jpeg?imageView2/1/w/180/h/180",
+      "http://fuss10.elemecdn.com/f/96/3d608c5811bc2d902fc9ab9a5baa7jpeg.jpeg?imageView2/1/w/180/h/180",
+      "http://fuss10.elemecdn.com/6/ad/779f8620ff49f701cd4c58f6448b6jpeg.jpeg?imageView2/1/w/180/h/180"
+    ],
+    "infos": [
+      "青春不散场，毕业就来特朗普的店!",
+      "品类:特朗普的店应有尽有",
+      "只有你想不到，没有做不到，特朗普就是牛",
+      "营业时间:早9:00-次日2:00"
+    ]
+  }
+}

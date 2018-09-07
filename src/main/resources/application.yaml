@@ -1,0 +1,99 @@
+spring:
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/restaurant?characterEncoding=utf-8&useSSL=false
+#    url: jdbc:mysql://172.20.10.14:3306/restaurant?characterEncoding=utf-8&useSSL=false
+#    password: 123456
+    username: root
+    password: 1995418
+
+  jpa:
+    show-sql: true
+  jackson:
+    default-property-inclusion: non_null
+#  redis:
+#    host: 172.20.10.14
+#    port: 6379
+
+
+
+#配置根路径
+#server:
+#  servlet:
+#    context-path: /sell
+
+
+#zcy的微信公众号测试平台
+#wechat:
+#  mpAppId: wx73e40c28bc65456c
+#  mpAppSecret: 6c380b1b256337edb289d7b960e6a8ef
+
+
+#第三方的借用  、商用支付
+wechat:
+  mpAppId: wxd898fcb01713c658
+  mpAppSecret:
+  openAppId: wx6ad144e54af67d87
+  openAppSecret: 91a2ff6d38a2bbccfb7e9f9079108e2e
+  mchId: 1483469312
+  mchKey: C5245D70627C1F8E9964D494B0735025
+  KeyPath: /doc/h5.p12
+  notifyUrl: http://zhangchunyang.natapp1.cc/notify
+
+
+
+
+
+
+projecturl:
+  wechatMpAuthorize: http://zhangchunyang.natapp1.cc
+  wechatOpenAuthorize: http://zhangchunyang.natapp1.cc
+  sell: http://zhangchunyang.natapp1.cc
+
+
+
+
+
+
+
+
+
+
+
+
+
+# freemarker模版相关配置
+#  freemarker:
+#    contentType: text/html
+#    suffix: .ftl
+#    templateEncoding: UTF-8
+#    templateLoaderPath: classpath:/templates/
+
+
+
+
+#server:
+#  servlet:
+#    context-path: /restaurant
+
+
+
+
+
+
+
+
+
+
+#logging:
+#  pattern: #日志输出的样式
+#    console:  "%d - %msg%n"
+#  #以下为日志输出路径:
+#  #在路径下建立一个名为spring.log的日志文件
+#  #path: /Users/zhangchunyang/Documents/IdeaProjects/restaurant/log
+#  #在路径下建立一个名为restaurant的日志文件
+#  file: /Users/zhangchunyang/Documents/IdeaProjects/restaurant/log/restaurant.log
+#  #日志级别
+#  level:
+#      #指定到某各类
+#      com.zcy.restaurant.LoggerTest: debug

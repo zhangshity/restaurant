@@ -1,0 +1,30 @@
+2018-05-16 17:11:01.195  INFO 7824 --- [main] com.zcy.restaurant.LoggerTest            : Starting LoggerTest on bogon with PID 7824 (started by zhangchunyang in /Users/zhangchunyang/Documents/IdeaProjects/restaurant)
+2018-05-16 17:11:01.197  INFO 7824 --- [main] com.zcy.restaurant.LoggerTest            : No active profile set, falling back to default profiles: default
+2018-05-16 17:11:01.219  INFO 7824 --- [main] o.s.w.c.s.GenericWebApplicationContext   : Refreshing org.springframework.web.context.support.GenericWebApplicationContext@4f0f2942: startup date [Wed May 16 17:11:01 CST 2018]; root of context hierarchy
+2018-05-16 17:11:02.151  INFO 7824 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-05-16 17:11:02.291  INFO 7824 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.web.context.support.GenericWebApplicationContext@4f0f2942: startup date [Wed May 16 17:11:01 CST 2018]; root of context hierarchy
+2018-05-16 17:11:02.358  INFO 7824 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-05-16 17:11:02.359  INFO 7824 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-05-16 17:11:02.379  INFO 7824 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-05-16 17:11:02.380  INFO 7824 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-05-16 17:11:02.494  INFO 7824 --- [main] com.zcy.restaurant.LoggerTest            : Started LoggerTest in 1.657 seconds (JVM running for 2.427)
+2018-05-16 17:11:02.558  INFO 7824 --- [main] com.zcy.restaurant.LoggerTest            : info...
+2018-05-16 17:11:02.559 ERROR 7824 --- [main] com.zcy.restaurant.LoggerTest            : error...
+2018-05-16 17:11:02.562  INFO 7824 --- [main] com.zcy.restaurant.LoggerTest            : name:chunyang.zhang password:123
+2018-05-16 17:11:02.562  INFO 7824 --- [main] com.zcy.restaurant.LoggerTest            : name:chunyang.zhang  password:123
+2018-05-16 17:11:02.562  INFO 7824 --- [main] com.zcy.restaurant.LoggerTest            : info...
+2018-05-16 17:11:02.562 ERROR 7824 --- [main] com.zcy.restaurant.LoggerTest            : error...
+2018-05-16 17:11:02.564  INFO 7824 --- [Thread-2] o.s.w.c.s.GenericWebApplicationContext   : Closing org.springframework.web.context.support.GenericWebApplicationContext@4f0f2942: startup date [Wed May 16 17:11:01 CST 2018]; root of context hierarchy
+2018-05-16 17:11:07.148  INFO 7827 --- [main] com.zcy.restaurant.LoggerTest            : Starting LoggerTest on bogon with PID 7827 (started by zhangchunyang in /Users/zhangchunyang/Documents/IdeaProjects/restaurant)
+2018-05-16 17:11:07.149  INFO 7827 --- [main] com.zcy.restaurant.LoggerTest            : No active profile set, falling back to default profiles: default
+2018-05-16 17:11:07.171  INFO 7827 --- [main] o.s.w.c.s.GenericWebApplicationContext   : Refreshing org.springframework.web.context.support.GenericWebApplicationContext@71687585: startup date [Wed May 16 17:11:07 CST 2018]; root of context hierarchy
+2018-05-16 17:11:08.115  INFO 7827 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-05-16 17:11:08.251  INFO 7827 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.web.context.support.GenericWebApplicationContext@71687585: startup date [Wed May 16 17:11:07 CST 2018]; root of context hierarchy
+2018-05-16 17:11:08.301  INFO 7827 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-05-16 17:11:08.302  INFO 7827 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-05-16 17:11:08.320  INFO 7827 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-05-16 17:11:08.320  INFO 7827 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-05-16 17:11:08.463  INFO 7827 --- [main] com.zcy.restaurant.LoggerTest            : Started LoggerTest in 1.671 seconds (JVM running for 2.484)
+2018-05-16 17:11:08.532  INFO 7827 --- [main] com.zcy.restaurant.LoggerTest            : info...
+2018-05-16 17:11:08.533 ERROR 7827 --- [main] com.zcy.restaurant.LoggerTest            : error...
+2018-05-16 17:11:08.536  INFO 7827 --- [Thread-2] o.s.w.c.s.GenericWebApplicationContext   : Closing org.springframework.web.context.support.GenericWebApplicationContext@71687585: startup date [Wed May 16 17:11:07 CST 2018]; root of context hierarchy
